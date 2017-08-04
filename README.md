@@ -30,27 +30,32 @@ Now play with the [source files](https://github.com/ruanyf/koa-demos/tree/master
 
 ## Index
 
-1. [Start a server](#demo01-start-a-server)
-1. [Hello World](#demo02-hello-world)
-1. [Response type](#demo03-response-type)
-1. [Use a template](#demo04-use-a-template)
-1. [Simple router](#demo05-simple-router)
-1. [Koa-route](#demo06-koa-route)
-1. [Logger](#demo07-logger)
-1. [Middleware](#demo08-middleware)
-1. [Middleware stack](#demo09-middleware-stack)
-1. [Async middleware](#demo10-async-middleware)
-1. [Compose multi middlewares](#demo11-compose-multi-middlewares)
-1. [Static assets](#demo12-static-assets)
-1. [Response redirecting](#demo13-response-redirecting)
-1. [500 error](#demo14-500-error)
-1. [404 error](#demo15-404-error)
-1. [Error handling](#demo16-error-handling)
-1. [Error listener](#demo17-error-listener)
-1. [Error emitting](#demo18-error-emitting)
-1. [Cookies](#demo19-cookies)
-1. [Form](#demo20-form)
-1. [Upload](#demo21-upload)
+1. Basics
+  - [Start a server](#demo01-start-a-server)
+  - [Hello World](#demo02-hello-world)
+  - [Response type](#demo03-response-type)
+  - [Use a template](#demo04-use-a-template)
+1. Router
+  - [Simple router](#demo05-simple-router)
+  - [Koa-route](#demo06-koa-route)
+  - [Static assets](#demo12-static-assets)
+  - [Response redirecting](#demo13-response-redirecting)
+1. Middleware
+  - [Logger](#demo07-logger)
+  - [Middleware](#demo08-middleware)
+  - [Middleware stack](#demo09-middleware-stack)
+  - [Async middleware](#demo10-async-middleware)
+  - [Compose multi middlewares](#demo11-compose-multi-middlewares)
+1. Error handling
+  - [500 error](#demo14-500-error)
+  - [404 error](#demo15-404-error)
+  - [Error handling](#demo16-error-handling)
+  - [Error listener](#demo17-error-listener)
+  - [Error emitting](#demo18-error-emitting)
+1. Web app
+  - [Cookies](#demo19-cookies)
+  - [Form](#demo20-form)
+  - [Upload](#demo21-upload)
 
 ## Demo01: start a server
 
