@@ -75,7 +75,7 @@ Run the demo.
 $ node demos/01.js
 ```
 
-Visit http://127.0.01:3000 . You should see nothing but 'Not Found' in the page, since we haven't add any content.
+Visit http://127.0.0.1:3000 . You should see nothing but 'Not Found' in the page, since we haven't add any content.
 
 ## Demo02: Hello World
 
@@ -105,7 +105,7 @@ Run the demo.
 $ node demos/02.js
 ```
 
-Visit http://127.0.01:3000 . Now you should see 'Hello World' in the page.
+Visit http://127.0.0.1:3000 . Now you should see 'Hello World' in the page.
 
 ## Demo03: response type
 
@@ -142,7 +142,7 @@ Run the demo.
 $ node demos/03.js
 ```
 
-Visit http://127.0.01:3000 . What you see depends on the `Accept` field of HTTP request header. In most cases, the content will be a XML document.
+Visit http://127.0.0.1:3000 . What you see depends on the `Accept` field of HTTP request header. In most cases, the content will be a XML document.
 
 ## Demo04: use a template
 
@@ -169,7 +169,7 @@ Run the demo.
 $ node demos/04.js
 ```
 
-Visit http://127.0.01:3000 . You will see the content of the template file.
+Visit http://127.0.0.1:3000 . You will see the content of the template file.
 
 ## Demo05: simple router
 
@@ -199,7 +199,7 @@ Run the demo.
 $ node demos/05.js
 ```
 
-Visit http://127.0.01:3000/about . You could click the link to the Index page.
+Visit http://127.0.0.1:3000/about . You could click the link to the Index page.
 
 ## Demo06: koa-route
 
@@ -233,7 +233,7 @@ Run the demo.
 $ node demos/06.js
 ```
 
-Visit http://127.0.01:3000/about . You could click the link to the Index page.
+Visit http://127.0.0.1:3000/about . You could click the link to the Index page.
 
 ## Demo07: logger
 
@@ -259,7 +259,7 @@ Run the demo.
 $ node demos/07.js
 ```
 
-Visit http://127.0.01:3000 . You will see the logging info in console.
+Visit http://127.0.0.1:3000 . You will see the logging info in console.
 
 ## Demo08: middleware
 
@@ -294,7 +294,7 @@ Run the demo.
 $ node demos/08.js
 ```
 
-Visit http://127.0.01:3000 . You will see the logging info in console.
+Visit http://127.0.0.1:3000 . You will see the logging info in console.
 
 ## Demo09: middleware stack
 
@@ -336,7 +336,7 @@ Run the demo.
 $ node demos/09.js
 ```
 
-Visit http://127.0.01:3000 . You will see the following result in console.
+Visit http://127.0.0.1:3000 . You will see the following result in console.
 
 ```bash
 >> one
@@ -375,7 +375,7 @@ Run the demo.
 $ node demos/10.js
 ```
 
-Visit http://127.0.01:3000 . You will see the content of the template file.
+Visit http://127.0.0.1:3000 . You will see the content of the template file.
 
 ## Demo11: compose multi middlewares
 
@@ -408,7 +408,7 @@ Run the demo.
 $ node demos/11.js
 ```
 
-Visit http://127.0.01:3000 . You will see the logging info in console.
+Visit http://127.0.0.1:3000 . You will see the logging info in console.
 
 ## Demo12: static assets
 
