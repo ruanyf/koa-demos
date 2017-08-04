@@ -203,7 +203,7 @@ Visit http://127.0.0.1:3000/about . You could click the link to the Index page.
 
 ## Demo06: koa-route
 
-`koa-route` package is a more elegant and useful way to implement the router functionality.
+[`koa-route`](https://www.npmjs.com/package/koa-route) package is a more elegant and useful way to implement the router functionality.
 
 ```javascript
 // demos/06.js
@@ -379,7 +379,7 @@ Visit http://127.0.0.1:3000 . You will see the content of the template file.
 
 ## Demo11: compose multi middlewares
 
-`koa-compose` package is used to compose multi middlewares into one.
+[`koa-compose`](https://www.npmjs.com/package/koa-compose) package is used to compose multi middlewares into one.
 
 ```javascript
 // demos/11.js
@@ -412,7 +412,7 @@ Visit http://127.0.0.1:3000 . You will see the logging info in console.
 
 ## Demo12: static assets
 
-`koa-static` package could be used to serve static assets.
+[`koa-static`](https://www.npmjs.com/package/koa-static) package could be used to serve static assets.
 
 ```javascript
 // demos/12.js
@@ -658,7 +658,7 @@ Visit http://127.0.0.1:3000 and refresh the page, and you should see `1 views` a
 
 ## Demo20: form
 
-`koa-body` package is used to parse the body carried by a POST request.
+[`koa-body`](https://www.npmjs.com/package/koa-body) package is used to parse the body carried by a POST request.
 
 ```javascript
 // demos/20.js
@@ -695,7 +695,7 @@ name required
 
 ## Demo21: upload
 
-`koa-body` package could process the upload files as well.
+[`koa-body`](https://www.npmjs.com/package/koa-body) package could process the upload files as well.
 
 ```javascript
 // demos/21.js
