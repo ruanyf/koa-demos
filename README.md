@@ -1,4 +1,6 @@
-A collection of simple demos of Koa, a web application framework for Node.
+A collection of simple demos of [Koa](http://koajs.com/), a web application framework for Node.
+
+![Logo](logo.png)
 
 ## How to use
 
@@ -9,7 +11,7 @@ $ node -v
 v8.0.0
 ```
 
-Koa requires node v7.6.0+. If your version is older than that, update Node first.
+Koa requires node v7.6.0+. If your version is older than that, upgrade Node first.
 
 Then clone the repo.
 
