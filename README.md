@@ -298,7 +298,7 @@ Visit http://127.0.0.1:3000 . You will see the logging info in console.
 
 ## Demo09: middleware stack
 
-Multi middlewares form a middle stack. The most outer middleware is executed first, then passes the execution to the next middleware. And the most inner middleware is executed last, then returns the previous middleware. It is just like a first-in-last-out stack.
+Multi middlewares form a middle stack. The most outer middleware is executed first, then passes the execution to the next middleware. And the most inner middleware is executed last, then returns the execution to the previous middleware. It is just like a first-in-last-out stack.
 
 ```javascript
 // demos/09.js
@@ -347,7 +347,7 @@ Visit http://127.0.0.1:3000 . You will see the following result in console.
 << one
 ```
 
-If deleting a `next()` in a middleware, you will find the execution will not be passed down.
+As a exercise, commenting the line of `next()` in the middleware `two`, you will find the execution will not be passed down.
 
 ## Demo10: async middleware
 
