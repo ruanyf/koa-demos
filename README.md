@@ -742,7 +742,7 @@ $ curl --form upload=@/path/to/file http://127.0.0.1:3000
 ["/tmp/file"]
 ```
 
-## Usefule links
+## Useful links
 
 - [koa workshop](https://github.com/koajs/workshop)
 - [kick-off-koa](https://github.com/koajs/kick-off-koa)
